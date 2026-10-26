@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Yorn Serrien</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-neutral-950 text-neutral-100">
+    <div class="max-w-6xl mx-auto px-4">
+        <header class="flex flex-col gap-3 py-4 border-b border-white/10 sm:flex-row sm:items-center sm:justify-between">
+            <a href="index.html" class="text-xl font-bold text-white">Yorn Serrien<span class="text-red-500">.</span></a>
+            <nav aria-label="Hoofdnavigatie">
+                <ul class="flex flex-wrap gap-x-6 gap-y-2">
+                    <li><a href="index.html" class="text-neutral-300 transition hover:text-white">Home</a></li>
+                    <li><a href="portfolio.html" class="font-semibold text-red-400" aria-current="page">Portfolio</a></li>
+                    <li><a href="contact.html" class="text-neutral-300 transition hover:text-white">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="py-8">
+            <section class="mb-8">
+                <h1 class="text-3xl font-bold mb-4">Projecten in detail</h1>
+                <p class="max-w-2xl leading-relaxed">
+                    Op deze pagina vind je meer informatie over de projecten uit mijn portfolio. Selecteer een project om meteen naar de details te gaan.
+                </p>
+            </section>
+
+            <nav aria-label="Projecten op deze pagina" class="mb-8">
+                <ul class="flex flex-wrap gap-3">
+                    <li><a href="project.html#webwizz" class="inline-block rounded-full border border-red-500/25 bg-red-500/10 px-4 py-2 text-sm font-semibold text-red-300 transition hover:bg-red-500/20">Webwizz project</a></li>
+                    <li><a href="project.html#serverscript" class="inline-block rounded-full border border-red-500/25 bg-red-500/10 px-4 py-2 text-sm font-semibold text-red-300 transition hover:bg-red-500/20">Serverscript</a></li>
+                    <li><a href="project.html#wifi" class="inline-block rounded-full border border-red-500/25 bg-red-500/10 px-4 py-2 text-sm font-semibold text-red-300 transition hover:bg-red-500/20">Wifi studentenkamer</a></li>
+                    <li><a href="project.html#monitoring" class="inline-block rounded-full border border-red-500/25 bg-red-500/10 px-4 py-2 text-sm font-semibold text-red-300 transition hover:bg-red-500/20">Monitoring</a></li>
+                </ul>
+            </nav>
+
+            <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+                <a href="project.html#webwizz" class="group block rounded-xl focus-visible:outline-red-500">
+                    <article id="webwizz" class="scroll-mt-6 h-full rounded-xl border border-white/10 bg-white/[0.04] p-6 transition hover:-translate-y-1 hover:border-red-500/50">
+                    <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-red-400">Netwerken</p>
+                    <h2 class="text-2xl font-bold mb-3">Webwizz project</h2>
+                    <p class="mb-4 leading-relaxed text-neutral-300">
+                        Voor dit project is een netwerk opgezet voor een bedrijf. Het project brengt de onderdelen van een bedrijfsnetwerk samen in een oplossing die aansluit bij de behoeften van de organisatie.
+                    </p>
+                    <h3 class="font-bold mb-2">Focus van het project</h3>
+                    <p class="text-sm leading-relaxed text-neutral-400">
+                        Het ontwerpen en opbouwen van een netwerk en nadenken over hoe toestellen en gebruikers binnen een bedrijfsomgeving met elkaar kunnen communiceren.
+                    </p>
+                    </article>
+                </a>
+
+                <a href="project.html#serverscript" class="group block rounded-xl focus-visible:outline-red-500">
+                    <article id="serverscript" class="scroll-mt-6 h-full rounded-xl border border-white/10 bg-white/[0.04] p-6 transition hover:-translate-y-1 hover:border-red-500/50">
+                    <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-red-400">Automatisering</p>
+                    <h2 class="text-2xl font-bold mb-3">Geautomatiseerd serverscript</h2>
+                    <p class="mb-4 leading-relaxed text-neutral-300">
+                        Dit script maakt automatisch een virtuele server aan op basis van de specificaties die de gebruiker opgeeft. Zo worden terugkerende stappen bij het aanmaken van een server eenvoudiger.
+                    </p>
+                    <h3 class="font-bold mb-2">Focus van het project</h3>
+                    <p class="text-sm leading-relaxed text-neutral-400">
+                        Gebruikersinvoer omzetten naar een geautomatiseerde taak en het aanmaken van virtuele servers afstemmen op verschillende specificaties.
+                    </p>
+                    </article>
+                </a>
+
+                <a href="project.html#wifi" class="group block rounded-xl focus-visible:outline-red-500">
+                    <article id="wifi" class="scroll-mt-6 h-full rounded-xl border border-white/10 bg-white/[0.04] p-6 transition hover:-translate-y-1 hover:border-red-500/50">
+                    <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-red-400">Draadloze netwerken</p>
+                    <h2 class="text-2xl font-bold mb-3">Wifi voor de studentenkamer</h2>
+                    <p class="mb-4 leading-relaxed text-neutral-300">
+                        In dit project wordt een extra toegangspunt gebruikt om het wifi-signaal in een studentenkamer uit te breiden tot op zolder.
+                    </p>
+                    <h3 class="font-bold mb-2">Focus van het project</h3>
+                    <p class="text-sm leading-relaxed text-neutral-400">
+                        Een praktisch probleem met draadloze dekking aanpakken en zorgen dat een netwerk ook op een moeilijker bereikbare plek beschikbaar is.
+                    </p>
+                    </article>
+                </a>
+
+                <a href="project.html#monitoring" class="group block rounded-xl focus-visible:outline-red-500">
+                    <article id="monitoring" class="scroll-mt-6 h-full rounded-xl border border-white/10 bg-white/[0.04] p-6 transition hover:-translate-y-1 hover:border-red-500/50">
+                    <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-red-400">Netwerkbeheer</p>
+                    <h2 class="text-2xl font-bold mb-3">Monitoring met grafieken</h2>
+                    <p class="mb-4 leading-relaxed text-neutral-300">
+                        Dit project toont grafieken van het netwerkverkeer op één scherm, zodat de activiteit van het netwerk overzichtelijk kan worden opgevolgd.
+                    </p>
+                    <h3 class="font-bold mb-2">Focus van het project</h3>
+                    <p class="text-sm leading-relaxed text-neutral-400">
+                        Netwerkgegevens visueel presenteren en een centraal overzicht maken dat helpt om netwerkverkeer te bekijken.
+                    </p>
+                    </article>
+                </a>
+            </div>
+        </main>
+
+        <footer class="flex flex-col gap-2 border-t border-white/10 py-4 text-sm text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
+            <p>&copy; 2026 Yorn Serrien</p>
+            <a href="mailto:yorn.serrien@student.ap.be" class="transition hover:text-white">yorn.serrien@student.ap.be</a>
+        </footer>
+    </div>
+</body>
+</html>
